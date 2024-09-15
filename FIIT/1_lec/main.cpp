@@ -1,7 +1,7 @@
-# include <iostream>
-
+#include <iostream>
+using namespace std;
 int main()
 {
-    std:: cout << "Hello, everynyan ^^!" << std::endl;
+    cout << "Hello, everynyan ^^!";
     return 0;
 }

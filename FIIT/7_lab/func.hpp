@@ -9,7 +9,6 @@ namespace sb
     bool MoreThanOneMin(int mas[100][100], int n);
     bool isPrime(int x);
     bool MoreThanOnePrime(int mas[100][100], int n);
-    // int* Product_ofElem_inI(int mas[100][100], int n);
     void swap(int& a, int& b);
     void Lines_Sort(int mas[100][100], int n);
     void WriteMatrix(int mas[100][100], int n);

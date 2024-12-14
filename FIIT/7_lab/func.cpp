@@ -94,7 +94,7 @@ namespace sb   // мои инициалы
         int product;
         for(int i=1;i<=n;i++) {
             product = 1;
-            for(int j=1;i<=n;i++) {
+            for(int j=1;j<=n;j++) {
                 product *= mas[i][j];
             }
             // for (int x : mas[i]) product *= x;
@@ -107,7 +107,7 @@ namespace sb   // мои инициалы
 
         for(int i=1;i<=n-1;i++)
             for(int j=i+1;j<=n;j++)
-                if(mas_prods_in_i[i] > mas_prods_in_i[j])
+                if(mas_prods_in_i[i] < mas_prods_in_i[j])
                 {
                     int tmp[100];
                     for (int k=1;k<=n;k++) {  // Копируем элементы массива
